@@ -1,0 +1,13 @@
+EXPLAIN.TXT - Answer in your own words
+
+1. What does the <head> section do for this page?
+
+The <head> section contains resources info that the browser needs but doesn't display directly on the page. It includes the page title that shows in the browser tab the viewport settings for mobile responsiveness, and links to external resources like the CSS stylesheet. This section helps search engines, browsers, and assistive technologies understand and properly display the page.
+
+2. Why is alt text important—beyond "for screen readers"?
+
+Alt text serves multiple important purposes beyond screen readers. It displays when images fail to load due to slow connections or broken links, helping all users understand what should be there. Alt text also provides context in text-only browsers and when users have images disabled to save data. It's a fundamental part of making web content accessible and functional for everyone, not just users with disabilities.
+
+3. What's the difference between <h1> and just making text large?
+
+The difference between using <h1> and just making large text is the computer's ability to understand. <h1> is a semantic element and it will always indicate that its the main heading. It tells all types of search engines or browsers that "hey that is a heading and it is important so make it big." If you were to just use big font for a title it doesn't communicate that it is a heading rather just big text on a screen. 
