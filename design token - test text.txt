@@ -1,0 +1,14 @@
+TEST-FIRST design token
+
+1. Layout Expectation: Expect card grid to show 1 column on mobile, 2 columns at 600px, 4 columns at 900px without horizontal scroll. → Verified at 375px, 768px, and 1200px using browser DevTools responsive mode.
+
+2. Token Change Test: Changed --gap from 1rem to 2rem; spacing between cards increased uniformly without breaking layout or causing wrapping issues. → Reverted to 2rem for final version.
+
+3. Contrast Check (Text on BG): --text (#222222) on --bg (#f5f5f5) = 11.83:1 ratio (passes WCAG AAA). Checked using WebAIM Contrast Checker.
+
+4. Contrast Check (Accent Button): --surface (#ffffff) on --accent (#0066cc) = 4.58:1 ratio (passes WCAG AA). Checked using WebAIM Contrast Checker.
+
+5. Focus Visibility Test: Tabbed through all interactive elements (CTA button, card links); visible blue outline appears on all focused elements without removal.
+
+6. Responsive Sanity (375px): At 375px viewport width, no horizontal scroll observed; all text remains readable; cards stack vertically as expected.
+
