@@ -57,8 +57,8 @@ The model provided a complete design system with:
 
 ## Timebox
 
-**Total time spent**: Around 90 minutes
-- Initial setup and token planning: 15 minutes
+**Total time spent**: Around 90 minutes or a little more
+- Initial setup and token planning: 15-ish minutes
 - HTML structure and content: 20 minutes
 - CSS styling and grid layouts: 30 minutes
 - Testing and accessibility checks: 15 minutes
